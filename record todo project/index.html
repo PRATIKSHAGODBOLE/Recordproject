@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Record Assignment</title>
+  <style>
+    #taskTable {
+      border-collapse: collapse;
+    }
+
+    #taskTable th,
+    #taskTable td {
+      border: 1px solid black;
+      padding: 5px;
+      width: 100px;
+      text-align: center;
+
+    }
+
+    #taskInput {
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+    #main{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id = main>
+    <div id="container">
+      <h1>Record Assignment</h1>
+      <div>
+        <input type="text" id="taskInput">
+        <button id="addTaskBtn">Add Record</button>
+      </div>
+      <table id="taskTable">
+        <tbody id="taskTableBody">
+        </tbody>
+      </table>
+      <script src="script.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>
